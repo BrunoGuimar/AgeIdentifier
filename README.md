@@ -1,5 +1,5 @@
 ~ Age identifier using DOM ~
-<body style= "align-items: center;">
+<body style="text-align: center;">
 <p> ~ </p>
 <img src="gitimgm1.png"></img>
 <p> ~ </p>
