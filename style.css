@@ -1,0 +1,29 @@
+*{
+    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+body{
+    background-color: rgba(236, 184, 86, 0.87);
+}
+header{
+    text-align: center;
+}
+section{
+    background-color: rgba(255, 255, 255, 0.856);
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    padding: 8px;
+}
+
+img{
+    height: 497px;
+    width: 324px;   
+    border-radius: 90px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.801);
+}

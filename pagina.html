@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCISE 1 GUANABARES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Wet+Paint&display=swap" rel="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>☻ HOW OLD ARE YOU ☻</h1>
+    </header>
+
+    <section>
+        <label for="borndate">Born year: </label>
+        <input type="number" id="bornDate" name="dateinput" style="width: 55px;" maxlength="4" minlength="4">
+        <div>
+        <scan>Sex: </scan>
+        <input type="radio" id="generSelectMasculine" name="gener" checked="checked">
+        <label for="generSelect">Masculine</label>
+        <input type="radio" id="generSelectFeminine" name="gener">
+        <label for="generSelect">Feminine</label>
+        </div>
+        <div><button type="button" id="buttonVerify" onclick="verifyButton()">Verify</button></div>
+        <div id="yourAge"></div>
+
+    </section>
+
+    <footer>&copy; Guimaraescpr</footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
